@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Groovy';
+  src: url('assets/GroovyDay.ttf');
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+
+
+:root{
+
+  --background-color : #CBA5D0;
+  --background-color-light : hsl(0, 0%, 100%);
+  --text-color : white
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background{
+  padding: 15px;
+  text-align: center;
+}
+
+h1{
+  color: #AF89B4;
+  font-family: Groovy;
+  margin-bottom: 30px;
+}
+
+h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(56, 49, 49);
+}
+
+.flower_picture {
+  margin-top: 20px;
+  /* Définition de la transformation d'origine */
+  transform-origin: center;
+  
+  /* Animation de rotation continue */
+  animation: rotateFlower 7s linear infinite; /* Modifier la durée selon vos besoins */
+}
+
+/* Définition de l'animation */
+@keyframes rotateFlower {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.marginTop{
+  margin-top: 20px;
+}
+
+.main_background{
+  background-color: var(--background-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
