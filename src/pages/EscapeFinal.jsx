@@ -13,6 +13,7 @@ const EscapeFinal = () => {
         <p>Voila vous deux j'espère que vous avez kiffer ce petite escape game ! Et que les gateau sont very miam !</p>
         <br />
         <p>Ps :Faites péter un selfie avec les gâteaux ! </p>
+        <p>Ps2 : Avez-vous vraiment bien regarder derrière les nuages ? </p>
         
 
     </div>
